@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;;
+}
+#about{
+	background-image: url("images/Frame\ 19569.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 7.5%;
+	height: 204px;	
+ }
+ #about h1{
+  margin-top:48px;
+  margin-left: 65px;
+  font-size: 45px;
+ }
+ #about p{
+	margin-left: 65px;
+	width: 956px;
+	font-size: 20px;
+ }
+ #sponsors {
+	background-color: #E9E9E9;
+	padding-bottom: 8%;
+}
+#sponsors h1{
+   font-size: 56px;
+   /* font-weight: bold; */
+}
+#sponsors p{
+	font-size: 24px;
+	width: 337px;
+	font-weight: bold;
+	line-height: 2cqmax;
+}
+#sponsors button{
+	margin-top: 2%;
+	width: 262px;
+	padding: 12px 0px;
+	border: none;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(90deg, #1C67D1,  #1628AD,#00E0F6);
+	font-size: 18px;
+}
+.col-sponsor{
+	margin-top: 5%;		
+}
+.logo-sponsor, .logo-sponsor1{
+	border-left: 2px solid #636363;
+}
+.logo-sponsor{
+	border-bottom: 2px solid #636363;
+}
+.logo-sponsor img{
+	margin-left: -30px;
+}
+.logo-sponsor1 img{
+	margin-left: -30px;
+}
+.logoLast{
+	border-right: 2px solid #636363;
+}
+.allpostsHide, .col-sponsor-hide, .arrowshide, .hideparagraph, .italichide, .logocolmediahide {
+	display: none;
+}
+
+@media screen and (max-width: 425px){
+
+    #about{
+        margin-top: 8%;
+        height: 172px;	
+    }
+    #about h1{
+        font-size: 17px;
+        margin-left: 1%;
+        font-weight: bolder;
+    }
+    #about p{
+        width: 365px;
+        font-size: 13px;
+        margin-top: 4%;
+        margin-left: 1%;
+    }
+
+    #sponsors {
+        text-align: center;
+      }
+      #sponsors h1 {
+       font-size: 14px;
+       font-weight: bold;
+      }
+      #sponsors p{
+       font-size: 12px;
+        margin-left: 8%;
+      }
+      #sponsors button{
+       margin-top: 2%;
+       width: 139px;
+       padding: 5px 0px;
+       border-radius: 15px;
+       font-size: 10px;
+    }
+     .col-sponsor-s {
+       display: none;
+     }
+     .col-sponsor-hide {
+       margin: 8% 0 0 20%;
+       display:block
+     } 
+     .logo-sponsor-hide img {
+       width: 52px;
+       height: 47px;
+       border-left:1px solid #636363;
+     }
+     .logo-sponsor-hide1 img{
+       width: 52px;
+       height: 47px;
+       border-left: 1px solid #636363;
+       border-top: 1px solid #636363;
+     }
+      .sponhide, .sponhide1 {
+       border-right: 1px solid #636363;
+      }
+    }

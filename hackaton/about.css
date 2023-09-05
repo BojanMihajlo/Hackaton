@@ -1,0 +1,205 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;;
+}
+#about{
+	background-image: url("images/Frame\ 19569.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 7.5%;
+	height: 204px;	
+ }
+ #about h1{
+  margin-top:48px;
+  margin-left: 65px;
+  font-size: 45px;
+ }
+ #about p{
+	margin-left: 65px;
+	width: 956px;
+	font-size: 20px;
+ }
+ 
+ #our-company{
+	background-color: #E9E9E9;
+	padding-top: 7%;
+ }
+ #our-company .images{
+	position: relative;
+ }
+ .images .img2{
+	position: absolute;
+	left: 45%;
+	top: 54%;
+ }
+ #our-company h3{
+	color:#1628AD;
+ }
+ #our-company h5{
+	color: #1C67D1;
+ }
+ #our-company .com-para{
+	width:550px;
+	font-size: 17px;
+ }
+ .what{
+	margin-top: 12%;
+ }
+ .what .what-para{
+	width: 900px;
+	font-size: 16px;
+ }
+ .card-para{
+	font-size: 16px;
+	width: 350px;
+	margin-left: 10%;
+	margin-top: 6%;
+	line-height: 20px;
+ }
+ #our-company h4{
+	width: 250px;
+	margin: 5% 0 0 0;
+ }
+ .row-cart{
+	border:1px solid #1628AD;
+	padding: 8px;
+	height: 200px;
+ }
+ .row-cart i{
+	font-size: 55px;
+	margin: 2% 0 0 15%;
+ }
+ #team-techflo {
+	background-image:url("images/Frame 19066.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-position-y:380px;
+	background-size: 100% 80%;
+	padding: 6% 0;  
+	background-color: #E9E9E9;
+	} 
+	#team-techflo h3 {
+	  color: #1628AD;
+	  font-size: 33px;
+	  margin-bottom: 5%;
+	}
+	#team-techflo p {
+	  color: #1628AD;
+	  font-size: 19px;
+	}
+  
+	.wrapimage {
+		position: relative;
+		overflow: hidden;
+		display: inline-block;
+	}
+    .img-back{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}
+	.wrapimage:hover .img-back{
+		opacity: 1;
+	}
+    .logo-footer1, .img3, .hideimage {
+        display: none;
+    }
+    .eventcardhide{
+        display: none !important;
+    }
+    .hideButton, .allpostsHide, .colSponsorHide, .arrowshide, .hideparagraph, .italichide, .logocolmediahide {
+        display: none;
+    }
+    
+    @media screen and (max-width: 425px){
+        .what-para{
+            display: none;
+        }
+        #about{
+            margin-top: 8%;
+            height: 172px;	
+        }
+        #about h1{
+            font-size: 17px;
+            margin-left: 1%;
+            font-weight: bolder;
+        }
+        #about p{
+            width: 365px;
+            font-size: 13px;
+            margin-top: 4%;
+            margin-left: 1%;
+        }
+        #our-company h3{
+            font-size: 32px;
+            margin-left: 10%;
+         }
+         #our-company h5{
+            font-size: 20px;
+            margin-left:10%;
+         }
+         #our-company .com-para{
+            width: 305px;
+            font-size: 16px;
+            margin-left: 10%;
+            font-weight: bold;
+         }
+         #our-company .images{
+            display: none;
+         }
+         .img3{
+            display: block;
+            width: 352px;
+            height: 170px;
+            margin:2% 0% 5% 10%;
+         }
+         .row-cart{
+            border:none;
+            background-color: #FFFFFF;
+            width: 320px;
+            padding: 8px;
+            height: 200px;
+            margin: 2% 0% 4% 14%;
+            box-shadow: 2px 2px 5px #636363;
+            border-radius: 4px;
+         }
+         .card-para{
+            text-transform: capitalize;
+            width: 265px;
+            font-weight: bold;
+         }
+         #our-company h4{
+            width: 202px;
+            font-size: 24px;
+         }
+         .team-tech {
+            display: flex;
+            margin-bottom: 6%;
+         }
+         .team-tech h3{
+            display: none;
+         }
+        .adifischer{
+            background-color: #FFFFFF;
+        }
+         .wrapimage{
+            display: none;
+         }
+         #team-techflo {
+            background-image: none;
+          }
+          .hideimage{
+            display: block;
+            width: 137px;
+            height: 187px;
+          }
+          #team-techflo p{
+            font-size: 14px;
+            text-align: center;
+            padding: 3%;
+            color: black;
+            height: 187px;
+          }
+        }
+ 

@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;;
+}
+
+nav {
+	background: black;	
+}
+.logo{
+	width: 108.81px;
+	height: 95px;
+}
+
+nav ul li:hover{
+   border-bottom: 1px solid #AA558E;
+   
+}
+nav ul li a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.nav-link:hover {
+	color:#AA558E;
+}
+@media screen and (max-width: 425px){
+	.logo{
+		width: 59px;
+		height: 55px;
+	}
+	.navbar-toggler-icon i{
+		color: #FFFFFF;
+		font-size: 30px;
+	}
+}
